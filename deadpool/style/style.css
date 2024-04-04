@@ -1,0 +1,207 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    overflow-x: hidden; 
+  }
+  
+  header {
+    background: linear-gradient(100deg, #000000,#000000,#2c0f14,#60222D, #8A1F2E,#A82D30); /* Degrade de cima para baixo */
+    color: #fff;
+    padding: 20px 0;
+    z-index: 1;
+  }
+    .parallax {
+        height: 500px;
+        background-image: url('iamgemcss/fundo.png');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        padding-top: 50px;
+         }
+  .parallaxx {
+          height: 430px;
+          background-image: url('iamgemcss/deaddeitado.png');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: center;
+          color: #fff;
+          padding-top: 50px;
+           }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0;
+    color: white;
+  }
+  p{
+    color: white;
+    font-size: 20px;
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 35px;
+    transition: all 0.3s ease;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Efeito de aumento no hover */
+nav ul li a:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos adicionais para tornar as opções mais bonitas */
+nav ul li a::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+  .immgorigem {
+      float: left;
+      height: 540px;
+  }
+
+  .imgorigem {
+    
+      float: right;
+      float: bottom ;
+
+      margin-right: 200px;
+      height: 100px; /* Ajuste a altura conforme necessário */
+      margin-left: 220px;
+  }
+
+.imgpoderes {
+    float: right;
+    height: 560px;
+}
+
+.immgpoderes {
+  
+    float: left;
+    float: bottom ;
+
+    margin-left: 100px;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    margin-right:70px;
+    height: 120px;
+}
+.imgcriaçao{
+    float: right;
+    float: bottom ;
+
+    margin-right: 200px;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    margin-left: 220px;
+}
+.immgcriaçao {
+  float: left;
+  float: bottom;
+  float: top;
+  height: 500px;
+}
+
+  p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+
+  footer {
+    background: linear-gradient(100deg, #000000,#000000,#2c0f14,#60222D, #8A1F2E,#A82D30);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+h2{
+  color: white;
+}
+
+.produto {
+  background-image: linear-gradient(to right,#310609,#5c1112, #8b2626,#ff2b2f,#ff2b2f);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 30px;
+}
+.produto img {
+  width: 100%;
+  height: auto;
+}
+.produto .descricao {
+  padding: 15px;
+}
+.produto .preco {
+  font-weight: bold;
+  color: #000000;
+}
+.h2produto{
+  color:#000000
+}
+.imgprodutos:hover {
+  transform: scale(1.1);
+}
+
+.colorido{
+  background-image: linear-gradient(to right,#42090c,#8b191b, #8b2626,#ff2b2f,#ff2b2f); /* Define um degradê de vermelho para azul */
+  background-clip: text; /* Faz o degradê respeitar o texto */
+  color: transparent; /* Torna o texto transparente para exibir o degradê */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 15px;
+  margin-right: 15px
+}
+
+a{
+  text-decoration: none
+}
+.produtospool{
+  font-size: 80px;
+}
+
+.produtosdopoolimg{
+margin: 100px;
+
+}
